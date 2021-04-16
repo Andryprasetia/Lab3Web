@@ -207,3 +207,60 @@ font-weight:  bold; padding:  5px  15px;
 
 # Pertanyaan dan Tugas
 1.	Buatlah form yang menampilkan dropdown menu dan listbox dengan multiple selection.
+menampilkan dropdown menu
+~~~
+<div class="dropdown">
+    <button class="mainmenubtn">Main Menu</button>
+    <div class="dropdown-child">
+      <a href="D:\Tugas Kuliah\Semester 4\Pemograman web\Lab3\lab3_list.html">Menu List</a>
+      <a href="D:\Tugas Kuliah\Semester 4\Pemograman web\Lab3\lab3_tabel.html">Menu Table</a>
+      <a href="D:\Tugas Kuliah\Semester 4\Pemograman web\Lab3\lab3_form.html">Menu Form</a>
+    </div>
+  </div>
+~~~
+![Screenshot (56)](https://user-images.githubusercontent.com/81818989/114999396-050a2500-9ecc-11eb-8ced-2285bd93c43c.png)
+
+menambahkan tampilan listbox dengan multiple selection
+~~~
+ <!doctype html>
+
+<html>
+
+    <head>
+
+        <title>Cara Membuat Multiple Select Di Satu Tag Select</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+    </head>
+
+    <body style="background: rgb(230, 173, 216)">
+
+        <div style="width: 500px; padding: 15px; margin:200px auto;">
+
+            <div class="form-group">
+
+               <h1>Program Fakultas Studi</h1>
+
+                <label>Universitas Pelita Bangsa</label>
+
+                <select id="paket" name="paket[]" class="form-control" multiple="multiple">
+
+                    <option value=""></option>
+
+                    <option value="Teknik Informatika">Teknik Informatika</option>
+                    <option value="Teknik Industri">Teknik Industri</option>
+                    <option value="Teknik Lingkungan">Teknik Lingkungan</option>
+                    <option value="Akuntansi">Akuntansi</option>
+                    <option value="Manajemen">Manajemen</option>
+                    <option value="Bisnis Digital">Bisnis Digital</option>
+
+                </select>
+            </div>
+        </div>
+</body>
+</html>
+~~~
+![Screenshot (57)](https://user-images.githubusercontent.com/81818989/114999439-0e938d00-9ecc-11eb-97a8-da215c15c5b0.png)
