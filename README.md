@@ -228,7 +228,7 @@ menambahkan tampilan listbox dengan multiple selection
 
     <head>
 
-        <title>Cara Membuat Multiple Select Di Satu Tag Select</title>
+        <title>Latihan 3</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -263,4 +263,4 @@ menambahkan tampilan listbox dengan multiple selection
 </body>
 </html>
 ~~~
-![Screenshot (57)](https://user-images.githubusercontent.com/81818989/114999439-0e938d00-9ecc-11eb-97a8-da215c15c5b0.png)
+![Screenshot (58)](https://user-images.githubusercontent.com/81818989/115000135-ab562a80-9ecc-11eb-89d3-283e736f719d.png)
